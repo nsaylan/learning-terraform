@@ -25,7 +25,7 @@ resource "aws_instance" "blog" {
 
   tags = {
     Name = "Learning Terraform"
-  }
+ }
 }
 
 resource "aws_security_group" "blog" {
